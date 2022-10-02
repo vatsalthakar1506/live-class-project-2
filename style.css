@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+.container {
+  position: relative;
+  background-color: rgb(12, 12, 33);
+  height: 100vh;
+  z-index: -1;
+}
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 100px;
+}
+
+/* body {
+  background-image: url("assets/1.png");
+  background-repeat: no-repeat;
+   background-size: auto; 
+  background-attachment: fixed;
+  background-size: 70% 100%;
+}
+
+*/
+.main {
+  position: absolute;
+  left: 9%;
+  opacity: 0.5;
+  height: 100vh;
+  width: 80%;
+}
+body {
+}
+
+.list {
+  position: relative;
+  list-style: none;
+  color: #f4be2c;
+}
+
+.list-item1 {
+  position: absolute;
+  top: 35px;
+  left: 560px;
+}
+.list-item2 {
+  position: absolute;
+  top: 35px;
+  left: 680px;
+}
+.list-item3 {
+  position: absolute;
+  top: 35px;
+  right: 700px;
+}
+.list-item4 {
+  position: absolute;
+  right: 580px;
+  top: 35px;
+}
+.button-small {
+  position: absolute;
+  top: 25px;
+  right: 300px;
+  border-radius: 0.1em;
+  font-size: 15.5px;
+  padding: 8.5px 30px 8.5px 30px;
+  background-color: #ff6263;
+  color: floralwhite;
+  font-weight: 650;
+  font-family: sans-serif;
+  border: #ff6263;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero {
+  position: relative;
+}
+.hero-heading {
+  position: relative;
+  top: 150px;
+  left: 230px;
+  font-size: 100px;
+  width: 1000px;
+  text-align-last: center;
+  font-weight: 1300;
+  color: #f4be2c;
+}
+.span1 {
+  position: absolute;
+  right: 200px;
+
+  font-size: 100px;
+  top: 90px;
+}
+.span2 {
+  position: absolute;
+  right: 140px;
+  font-weight: 5300;
+  font-size: 100px;
+  top: 190px;
+}
+.button-large {
+  position: absolute;
+  top: 470px;
+  left: 630px;
+  border-radius: 0.1em;
+  padding: 20px 45px 20px 45px;
+  font-size: 23px;
+  color: beige;
+  background-color: #ff6263;
+  border: #ff6263;
+  font-weight: 600;
+}
+.bottom {
+  position: absolute;
+  top: 540px;
+  right: 240px;
+}
